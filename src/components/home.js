@@ -26,8 +26,8 @@ class Home extends Component {
     render(){
         return(
             <div>
-                <Banner></Banner>
-                <ArtistList allArtists={this.state.artists}></ArtistList>
+                <Banner/>
+                <ArtistList allArtists={this.state.artists}/>
             </div>
         )
     }
